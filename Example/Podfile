@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LMAOKeyboard_Example' do
+  pod 'LMAOKeyboard', :path => '../'
+
+  target 'LMAOKeyboard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
