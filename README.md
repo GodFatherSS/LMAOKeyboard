@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LMAOKeyboard
 
 [![CI Status](http://img.shields.io/travis/Seth/LMAOKeyboard.svg?style=flat)](https://travis-ci.org/Seth/LMAOKeyboard)
@@ -27,3 +28,6 @@ Seth, shishu@ehousechina.com
 ## License
 
 LMAOKeyboard is available under the MIT license. See the LICENSE file for more info.
+=======
+# LMAOKeyboard
+>>>>>>> cfb43e90c7a3f1fcb46b529b1bb8a64d0067bbde
