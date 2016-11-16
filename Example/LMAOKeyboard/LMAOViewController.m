@@ -7,9 +7,11 @@
 //
 
 #import "LMAOViewController.h"
-
-@interface LMAOViewController ()
-
+#import "LMAOKeyboard.h"
+@interface LMAOViewController ()<LMAOKeyboardDelegate>
+{
+    LMAOKeyboard *_keyboard;
+}
 @end
 
 @implementation LMAOViewController
@@ -17,13 +19,38 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    _keyboard = [LMAOKeyboard keyboard];
+    _keyboard.delegate = self;
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    _keyboard = nil;
+}
+
+#pragma mark - LMAOKeyboardDelegate
+- (void)lmao_keyboardDidCancel:(LMAOKeyboard *)keyboard {
+    NSLog(@"取消！");
+}
+
+- (void)lmao_keyboardDidGoNext:(LMAOKeyboard *)keyboard {
+    NSLog(@"下一步！");
+}
+
+- (void)lmao_keyboardDidForgetPassword:(LMAOKeyboard *)keyboard {
+    NSLog(@"忘记密码！");
+}
+
+- (void)lmao_keyboardDidInput:(LMAOKeyboard *)keyboard {
+    NSLog(@"密码为：%@", keyboard.password);
+}
+
+- (void)lmao_keyboardDidDelete:(LMAOKeyboard *)keyboard {
+    NSLog(@"删除后：%@", keyboard.password);
 }
 
 @end

@@ -1,0 +1,22 @@
+{
+  "name": "LMAOKeyboard",
+  "version": "0.1.0",
+  "summary": "A short description of LMAOKeyboard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/LMAOKeyboard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Seth": "shishu@ehousechina.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/LMAOKeyboard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LMAOKeyboard/Classes/**/*"
+}

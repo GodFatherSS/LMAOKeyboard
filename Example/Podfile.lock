@@ -1,0 +1,16 @@
+PODS:
+  - LMAOKeyboard (0.1.0)
+
+DEPENDENCIES:
+  - LMAOKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  LMAOKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LMAOKeyboard: c4dd1d88e1d5d0aab575babc96a8af734bc0a96f
+
+PODFILE CHECKSUM: 41c1c5bb221a0a7684c50940ef04641b68493699
+
+COCOAPODS: 1.1.1

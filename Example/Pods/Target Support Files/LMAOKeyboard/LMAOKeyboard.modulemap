@@ -1,0 +1,6 @@
+framework module LMAOKeyboard {
+  umbrella header "LMAOKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

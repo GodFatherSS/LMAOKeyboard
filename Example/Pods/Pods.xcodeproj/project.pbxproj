@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E0E7CD7CFF8EE28421796B7206587F3 /* Pods-LMAOKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 876E80EBE4D1577382518844C0829447 /* Pods-LMAOKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F6ADD12DEFD6B76E55D12AD760B651 /* Pods-LMAOKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1FF8E09A236EA6D6654A450A5C99CA /* Pods-LMAOKeyboard_Example-dummy.m */; };
+		518790E5C251CE0951F8A570BBCE2E20 /* Pods-LMAOKeyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E03C6415F5A2A402C34D2803FEA80A8C /* Pods-LMAOKeyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CB34E403FF11C06DA90EEB989EFE224 /* LMAOKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC831116951517143797B53625DC8F6 /* LMAOKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E059A909E7B75366493BE9497F44F49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		83890ABF1DDC25FF005E3385 /* LMAOKeyboardDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 83890AB41DDC25FF005E3385 /* LMAOKeyboardDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83890AC01DDC25FF005E3385 /* LMAOKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 83890AB51DDC25FF005E3385 /* LMAOKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83890AC11DDC25FF005E3385 /* LMAOKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 83890AB61DDC25FF005E3385 /* LMAOKeyboard.m */; };
+		83890AC21DDC25FF005E3385 /* LMAOKeyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 83890AB71DDC25FF005E3385 /* LMAOKeyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83890AC31DDC25FF005E3385 /* LMAOKeyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 83890AB81DDC25FF005E3385 /* LMAOKeyTextField.m */; };
+		83890AC41DDC25FF005E3385 /* LMAOSafeKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 83890AB91DDC25FF005E3385 /* LMAOSafeKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83890AC51DDC25FF005E3385 /* LMAOSafeKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 83890ABA1DDC25FF005E3385 /* LMAOSafeKeyboard.m */; };
+		83890AC61DDC25FF005E3385 /* LMAOTopPayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83890ABB1DDC25FF005E3385 /* LMAOTopPayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83890AC71DDC25FF005E3385 /* LMAOTopPayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83890ABC1DDC25FF005E3385 /* LMAOTopPayView.m */; };
+		83890AC81DDC25FF005E3385 /* UIButton+LMAOBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 83890ABD1DDC25FF005E3385 /* UIButton+LMAOBlock.h */; };
+		83890AC91DDC25FF005E3385 /* UIButton+LMAOBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 83890ABE1DDC25FF005E3385 /* UIButton+LMAOBlock.m */; };
+		AF682FA9935BDC9060EC824BE309E9A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BDF02BA770AEAE6EF70FB661C102B7C9 /* Pods-LMAOKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7A21481DAC8002F1C50BA4615E1D95 /* Pods-LMAOKeyboard_Tests-dummy.m */; };
+		E7A5EEAE9EE7D4B47A0E7E6DBBE216C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FECC96916E2522275FF512EECC2A8625 /* LMAOKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C690D85507E3A16ED66FF2F0526865AE /* LMAOKeyboard-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8634D1A8410846AECA24CBD598184E0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAAF34CFA7E3626A7E2BA25C3A96331;
+			remoteInfo = LMAOKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0645E10B9ED03B1B04B6126F2D0355CF /* Pods-LMAOKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMAOKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		075D144292B9FC76B5FF48ACCC7587E3 /* Pods-LMAOKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LMAOKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1B1FF8E09A236EA6D6654A450A5C99CA /* Pods-LMAOKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LMAOKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
+		1C095FA58F442F6AD2F8D67934540D2B /* Pods-LMAOKeyboard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LMAOKeyboard_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		38DE61D88377F5C4950E6644461F6E8E /* LMAOKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMAOKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		3D02BAB743E09608801DE301FD2FE1EB /* Pods_LMAOKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMAOKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F8CB8A3D2219CE1F3F1A33116C8525 /* Pods-LMAOKeyboard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LMAOKeyboard_Example-resources.sh"; sourceTree = "<group>"; };
+		5412C83210E920951404B6A70B5F556B /* Pods-LMAOKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LMAOKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57ED5D56973123E86115D61AA59732D6 /* Pods-LMAOKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LMAOKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
+		5A8BFC4B7953238BFD4250AB8F40A595 /* Pods-LMAOKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMAOKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		60DEF786C1E7A81207210E8AAC98DEBB /* Pods-LMAOKeyboard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LMAOKeyboard_Tests-resources.sh"; sourceTree = "<group>"; };
+		634BD25D1AEA0725AD084CE0FE02A150 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DECC62F2A709F8A0C6DA89784761FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83890AB41DDC25FF005E3385 /* LMAOKeyboardDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAOKeyboardDefine.h; sourceTree = "<group>"; };
+		83890AB51DDC25FF005E3385 /* LMAOKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAOKeyboard.h; sourceTree = "<group>"; };
+		83890AB61DDC25FF005E3385 /* LMAOKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAOKeyboard.m; sourceTree = "<group>"; };
+		83890AB71DDC25FF005E3385 /* LMAOKeyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAOKeyTextField.h; sourceTree = "<group>"; };
+		83890AB81DDC25FF005E3385 /* LMAOKeyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAOKeyTextField.m; sourceTree = "<group>"; };
+		83890AB91DDC25FF005E3385 /* LMAOSafeKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAOSafeKeyboard.h; sourceTree = "<group>"; };
+		83890ABA1DDC25FF005E3385 /* LMAOSafeKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAOSafeKeyboard.m; sourceTree = "<group>"; };
+		83890ABB1DDC25FF005E3385 /* LMAOTopPayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAOTopPayView.h; sourceTree = "<group>"; };
+		83890ABC1DDC25FF005E3385 /* LMAOTopPayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAOTopPayView.m; sourceTree = "<group>"; };
+		83890ABD1DDC25FF005E3385 /* UIButton+LMAOBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LMAOBlock.h"; sourceTree = "<group>"; };
+		83890ABE1DDC25FF005E3385 /* UIButton+LMAOBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LMAOBlock.m"; sourceTree = "<group>"; };
+		876E80EBE4D1577382518844C0829447 /* Pods-LMAOKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LMAOKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
+		89EBF714EDC3150323765DCAA1531148 /* Pods_LMAOKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LMAOKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E53D8484652AD9794D89E08B5E3902C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE40A265272C3239C756558023E4BC6 /* LMAOKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LMAOKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		995922D33712F71DAD3CB349FBE49E02 /* Pods-LMAOKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LMAOKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADC831116951517143797B53625DC8F6 /* LMAOKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LMAOKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		B2D2EC0BA9D68AD45640E2D3526A241E /* Pods-LMAOKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LMAOKeyboard_Example.modulemap"; sourceTree = "<group>"; };
+		C690D85507E3A16ED66FF2F0526865AE /* LMAOKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LMAOKeyboard-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF7A21481DAC8002F1C50BA4615E1D95 /* Pods-LMAOKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LMAOKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
+		D8AAC4FBD76CC2017EE10B77712AAD40 /* LMAOKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LMAOKeyboard.modulemap; sourceTree = "<group>"; };
+		E03C6415F5A2A402C34D2803FEA80A8C /* Pods-LMAOKeyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LMAOKeyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E5B4F9AB73A27A297E418A623E0A24B4 /* Pods-LMAOKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LMAOKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E69CBE717FA7E72E93321989630B71D2 /* Pods-LMAOKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMAOKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F6996EF397CDDB704C989FCB19F6CDE8 /* LMAOKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LMAOKeyboard.xcconfig; sourceTree = "<group>"; };
+		F6D9EBA4A2A15C7CAA3A6AE36BBC3068 /* Pods-LMAOKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMAOKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FBF427CCFF148A638FBAF7E67E1424D1 /* Pods-LMAOKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LMAOKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C75230128D82072B505EED944E7497E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF682FA9935BDC9060EC824BE309E9A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D34B9B04A8708BC94962B7AB4FDFB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A5EEAE9EE7D4B47A0E7E6DBBE216C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16ED0374153DCA3004513C1372E747D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E059A909E7B75366493BE9497F44F49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107B787C6242D6966BC5632DC5966F12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FE40A265272C3239C756558023E4BC6 /* LMAOKeyboard.framework */,
+				89EBF714EDC3150323765DCAA1531148 /* Pods_LMAOKeyboard_Example.framework */,
+				3D02BAB743E09608801DE301FD2FE1EB /* Pods_LMAOKeyboard_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1388133ACBBF1EC431F28AD05CB107D1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83890AB41DDC25FF005E3385 /* LMAOKeyboardDefine.h */,
+				83890AB51DDC25FF005E3385 /* LMAOKeyboard.h */,
+				83890AB61DDC25FF005E3385 /* LMAOKeyboard.m */,
+				83890AB71DDC25FF005E3385 /* LMAOKeyTextField.h */,
+				83890AB81DDC25FF005E3385 /* LMAOKeyTextField.m */,
+				83890AB91DDC25FF005E3385 /* LMAOSafeKeyboard.h */,
+				83890ABA1DDC25FF005E3385 /* LMAOSafeKeyboard.m */,
+				83890ABB1DDC25FF005E3385 /* LMAOTopPayView.h */,
+				83890ABC1DDC25FF005E3385 /* LMAOTopPayView.m */,
+				83890ABD1DDC25FF005E3385 /* UIButton+LMAOBlock.h */,
+				83890ABE1DDC25FF005E3385 /* UIButton+LMAOBlock.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		68F78B5385873DD641567438B989E47C /* Pods-LMAOKeyboard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				634BD25D1AEA0725AD084CE0FE02A150 /* Info.plist */,
+				57ED5D56973123E86115D61AA59732D6 /* Pods-LMAOKeyboard_Tests.modulemap */,
+				E5B4F9AB73A27A297E418A623E0A24B4 /* Pods-LMAOKeyboard_Tests-acknowledgements.markdown */,
+				0645E10B9ED03B1B04B6126F2D0355CF /* Pods-LMAOKeyboard_Tests-acknowledgements.plist */,
+				CF7A21481DAC8002F1C50BA4615E1D95 /* Pods-LMAOKeyboard_Tests-dummy.m */,
+				1C095FA58F442F6AD2F8D67934540D2B /* Pods-LMAOKeyboard_Tests-frameworks.sh */,
+				60DEF786C1E7A81207210E8AAC98DEBB /* Pods-LMAOKeyboard_Tests-resources.sh */,
+				E03C6415F5A2A402C34D2803FEA80A8C /* Pods-LMAOKeyboard_Tests-umbrella.h */,
+				FBF427CCFF148A638FBAF7E67E1424D1 /* Pods-LMAOKeyboard_Tests.debug.xcconfig */,
+				E69CBE717FA7E72E93321989630B71D2 /* Pods-LMAOKeyboard_Tests.release.xcconfig */,
+			);
+			name = "Pods-LMAOKeyboard_Tests";
+			path = "Target Support Files/Pods-LMAOKeyboard_Tests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8C320D9983141A872E48EB72824E765F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				107B787C6242D6966BC5632DC5966F12 /* Products */,
+				F8A01CE43243474EA1B66175B9696C86 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E188EA963F5963043C79F6FDAED2F9D /* LMAOKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9B2A2A21557BDD1AC364AB355E864694 /* LMAOKeyboard */,
+				B73499FFC5A6502C3E7FCD8ED9F0FF7B /* Support Files */,
+			);
+			name = LMAOKeyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8C320D9983141A872E48EB72824E765F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E188EA963F5963043C79F6FDAED2F9D /* LMAOKeyboard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B2A2A21557BDD1AC364AB355E864694 /* LMAOKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1388133ACBBF1EC431F28AD05CB107D1 /* Classes */,
+			);
+			path = LMAOKeyboard;
+			sourceTree = "<group>";
+		};
+		B73499FFC5A6502C3E7FCD8ED9F0FF7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E53D8484652AD9794D89E08B5E3902C /* Info.plist */,
+				D8AAC4FBD76CC2017EE10B77712AAD40 /* LMAOKeyboard.modulemap */,
+				F6996EF397CDDB704C989FCB19F6CDE8 /* LMAOKeyboard.xcconfig */,
+				C690D85507E3A16ED66FF2F0526865AE /* LMAOKeyboard-dummy.m */,
+				38DE61D88377F5C4950E6644461F6E8E /* LMAOKeyboard-prefix.pch */,
+				ADC831116951517143797B53625DC8F6 /* LMAOKeyboard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LMAOKeyboard";
+			sourceTree = "<group>";
+		};
+		BB01885384DEC1DBCCBDF08E2A53A620 /* Pods-LMAOKeyboard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				70DECC62F2A709F8A0C6DA89784761FD /* Info.plist */,
+				B2D2EC0BA9D68AD45640E2D3526A241E /* Pods-LMAOKeyboard_Example.modulemap */,
+				5412C83210E920951404B6A70B5F556B /* Pods-LMAOKeyboard_Example-acknowledgements.markdown */,
+				995922D33712F71DAD3CB349FBE49E02 /* Pods-LMAOKeyboard_Example-acknowledgements.plist */,
+				1B1FF8E09A236EA6D6654A450A5C99CA /* Pods-LMAOKeyboard_Example-dummy.m */,
+				075D144292B9FC76B5FF48ACCC7587E3 /* Pods-LMAOKeyboard_Example-frameworks.sh */,
+				49F8CB8A3D2219CE1F3F1A33116C8525 /* Pods-LMAOKeyboard_Example-resources.sh */,
+				876E80EBE4D1577382518844C0829447 /* Pods-LMAOKeyboard_Example-umbrella.h */,
+				F6D9EBA4A2A15C7CAA3A6AE36BBC3068 /* Pods-LMAOKeyboard_Example.debug.xcconfig */,
+				5A8BFC4B7953238BFD4250AB8F40A595 /* Pods-LMAOKeyboard_Example.release.xcconfig */,
+			);
+			name = "Pods-LMAOKeyboard_Example";
+			path = "Target Support Files/Pods-LMAOKeyboard_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8A01CE43243474EA1B66175B9696C86 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB01885384DEC1DBCCBDF08E2A53A620 /* Pods-LMAOKeyboard_Example */,
+				68F78B5385873DD641567438B989E47C /* Pods-LMAOKeyboard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CAF46ACD92615CFA27F332C8C9523C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83890AC61DDC25FF005E3385 /* LMAOTopPayView.h in Headers */,
+				83890AC41DDC25FF005E3385 /* LMAOSafeKeyboard.h in Headers */,
+				83890ABF1DDC25FF005E3385 /* LMAOKeyboardDefine.h in Headers */,
+				83890AC01DDC25FF005E3385 /* LMAOKeyboard.h in Headers */,
+				83890AC21DDC25FF005E3385 /* LMAOKeyTextField.h in Headers */,
+				5CB34E403FF11C06DA90EEB989EFE224 /* LMAOKeyboard-umbrella.h in Headers */,
+				83890AC81DDC25FF005E3385 /* UIButton+LMAOBlock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624D5B613CE45F64CF7677C67F46960B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518790E5C251CE0951F8A570BBCE2E20 /* Pods-LMAOKeyboard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EFB83F7183B09C85A52455FF504C1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0E7CD7CFF8EE28421796B7206587F3 /* Pods-LMAOKeyboard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C0C9D147D421C2837297D1B4CB8186A /* Pods-LMAOKeyboard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B201CB7E13913FBB6F41E2A3144757F /* Build configuration list for PBXNativeTarget "Pods-LMAOKeyboard_Tests" */;
+			buildPhases = (
+				EC7D739F0F5BB35287F0261434FB84CC /* Sources */,
+				2C75230128D82072B505EED944E7497E /* Frameworks */,
+				624D5B613CE45F64CF7677C67F46960B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LMAOKeyboard_Tests";
+			productName = "Pods-LMAOKeyboard_Tests";
+			productReference = 3D02BAB743E09608801DE301FD2FE1EB /* Pods_LMAOKeyboard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B15A7E55D3971EC261ED15CB26C707AF /* Pods-LMAOKeyboard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1591E6013C3B68165731A2F174B0D82 /* Build configuration list for PBXNativeTarget "Pods-LMAOKeyboard_Example" */;
+			buildPhases = (
+				8DFA808E2FD034A86ABD1C75D05996A7 /* Sources */,
+				A16ED0374153DCA3004513C1372E747D /* Frameworks */,
+				69EFB83F7183B09C85A52455FF504C1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				908DB380A83B417F504128726AE589BB /* PBXTargetDependency */,
+			);
+			name = "Pods-LMAOKeyboard_Example";
+			productName = "Pods-LMAOKeyboard_Example";
+			productReference = 89EBF714EDC3150323765DCAA1531148 /* Pods_LMAOKeyboard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDAAF34CFA7E3626A7E2BA25C3A96331 /* LMAOKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81DF005CAE48E0A9F9509E27DACB99A7 /* Build configuration list for PBXNativeTarget "LMAOKeyboard" */;
+			buildPhases = (
+				74CF8B1C5EC722F02A3F292B72373117 /* Sources */,
+				7D34B9B04A8708BC94962B7AB4FDFB77 /* Frameworks */,
+				2CAF46ACD92615CFA27F332C8C9523C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMAOKeyboard;
+			productName = LMAOKeyboard;
+			productReference = 8FE40A265272C3239C756558023E4BC6 /* LMAOKeyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 107B787C6242D6966BC5632DC5966F12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDAAF34CFA7E3626A7E2BA25C3A96331 /* LMAOKeyboard */,
+				B15A7E55D3971EC261ED15CB26C707AF /* Pods-LMAOKeyboard_Example */,
+				9C0C9D147D421C2837297D1B4CB8186A /* Pods-LMAOKeyboard_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74CF8B1C5EC722F02A3F292B72373117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECC96916E2522275FF512EECC2A8625 /* LMAOKeyboard-dummy.m in Sources */,
+				83890AC71DDC25FF005E3385 /* LMAOTopPayView.m in Sources */,
+				83890AC51DDC25FF005E3385 /* LMAOSafeKeyboard.m in Sources */,
+				83890AC11DDC25FF005E3385 /* LMAOKeyboard.m in Sources */,
+				83890AC31DDC25FF005E3385 /* LMAOKeyTextField.m in Sources */,
+				83890AC91DDC25FF005E3385 /* UIButton+LMAOBlock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DFA808E2FD034A86ABD1C75D05996A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F6ADD12DEFD6B76E55D12AD760B651 /* Pods-LMAOKeyboard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7D739F0F5BB35287F0261434FB84CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF02BA770AEAE6EF70FB661C102B7C9 /* Pods-LMAOKeyboard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		908DB380A83B417F504128726AE589BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LMAOKeyboard;
+			target = DDAAF34CFA7E3626A7E2BA25C3A96331 /* LMAOKeyboard */;
+			targetProxy = 8634D1A8410846AECA24CBD598184E0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12B9AF36F48072501311DB0C6B2192E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6996EF397CDDB704C989FCB19F6CDE8 /* LMAOKeyboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LMAOKeyboard/LMAOKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LMAOKeyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LMAOKeyboard/LMAOKeyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LMAOKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18255FD3D0C61795FF5D0B40302664B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBF427CCFF148A638FBAF7E67E1424D1 /* Pods-LMAOKeyboard_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LMAOKeyboard_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LMAOKeyboard_Tests/Pods-LMAOKeyboard_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LMAOKeyboard_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		613C03D19C0B438E642AB37CB785CEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69CBE717FA7E72E93321989630B71D2 /* Pods-LMAOKeyboard_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LMAOKeyboard_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LMAOKeyboard_Tests/Pods-LMAOKeyboard_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LMAOKeyboard_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94A557CF70762EC3C3BFA506646577C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6996EF397CDDB704C989FCB19F6CDE8 /* LMAOKeyboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LMAOKeyboard/LMAOKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LMAOKeyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LMAOKeyboard/LMAOKeyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LMAOKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99006B1AD0E85776F84E762FFB072C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8BFC4B7953238BFD4250AB8F40A595 /* Pods-LMAOKeyboard_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LMAOKeyboard_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LMAOKeyboard_Example/Pods-LMAOKeyboard_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LMAOKeyboard_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7A3925F141B229F744304395010B299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D9EBA4A2A15C7CAA3A6AE36BBC3068 /* Pods-LMAOKeyboard_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LMAOKeyboard_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LMAOKeyboard_Example/Pods-LMAOKeyboard_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LMAOKeyboard_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B201CB7E13913FBB6F41E2A3144757F /* Build configuration list for PBXNativeTarget "Pods-LMAOKeyboard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18255FD3D0C61795FF5D0B40302664B5 /* Debug */,
+				613C03D19C0B438E642AB37CB785CEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DF005CAE48E0A9F9509E27DACB99A7 /* Build configuration list for PBXNativeTarget "LMAOKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A557CF70762EC3C3BFA506646577C3 /* Debug */,
+				12B9AF36F48072501311DB0C6B2192E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1591E6013C3B68165731A2F174B0D82 /* Build configuration list for PBXNativeTarget "Pods-LMAOKeyboard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A3925F141B229F744304395010B299 /* Debug */,
+				99006B1AD0E85776F84E762FFB072C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
